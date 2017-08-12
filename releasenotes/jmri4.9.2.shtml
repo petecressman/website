@@ -590,7 +590,9 @@ The <a href="https://github.com/JMRI/JMRI/issues?utf8=✓&q=is%3Aclosed&q=milest
 	        if a speed profile exists for the power. On playback, when possible, they use 
 	        this track speed and look up the corresponding throttle settings rather than the directly recorded 
 		throttle setting. The intention is to have the warrant run at the same speeds regardless of changes 
-		in DCC address or size of the train load.</li>
+		in DCC address or size of the train load.
+		<br>See the "Automatic Speed Profiling" section of the "When Warrant Speeds Are Modified" help
+		file for warrants</li>
 	    <li>Warrants compute the track speeds for the DCC address on playback of the warrant when OPath lengths
 	        are known and throttle settings are known. These are saved in Session Speed Profiles.</li>
 	    <li>Session Speed Profiles are kept for all DCC addresses running in warrants during a layout session.</li>
